@@ -32,22 +32,22 @@ The assistant will start in the terminal. You can try commands like:
     what is today’s date
 
     open google
-
-  Type exit to quit.
+    
+    Type exit to quit.
 This project is being actively improved step-by-step.
 Planned in v1.1+:
 
-    GUI version (Tkinter or PyQt)
+  GUI version (Tkinter or PyQt)
 
-    Add voice interaction (text-to-speech, speech-to-text)
+  Add voice interaction (text-to-speech, speech-to-text)
 
-    Reminder / note-taking capability
+  Reminder / note-taking capability
 
-    Basic NLP with spaCy or transformers
+  Basic NLP with spaCy or transformers
 
-    Learn from previous commands
+  Learn from previous commands
 
-    Open more websites or apps
+  Open more websites or apps
 
-    More robust date/time logic
+  More robust date/time logic
 
