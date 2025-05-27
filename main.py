@@ -23,6 +23,22 @@ def chatbot():
         elif user_input in ["hi", "hello", "hey"]:
             print("👋 Hello! How can I assist you today?")
 
+        elif user_input.startswith("open "):
+            site = user_input.replace("open ", "").strip()
+
+            # Predefined site list
+            websites = {
+                "google": "https://www.google.com",
+                "youtube": "https://www.youtube.com",
+                "github": "https://www.github.com"
+            }
+
+            if site in websites:
+                webbrowser.open(websites[site])
+                print(f"🌐 Opening {site}...")
+            else:
+                print(f"❌ Sorry, I don’t know how to open '{site}' yet.")
+
         else:
             print("🤖 I’m still learning. Try another command.")
 
