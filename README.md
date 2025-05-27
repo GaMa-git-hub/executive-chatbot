@@ -21,7 +21,7 @@ This is a simple yet practical **Command-Line Chatbot** that acts as your basic 
 
 Make sure you have Python installed. Then:
 
-```bash
+bash
 python main.py
 The assistant will start in the terminal. You can try commands like:
 
@@ -33,7 +33,7 @@ The assistant will start in the terminal. You can try commands like:
 
     open google
 
-Type exit to quit.
+  Type exit to quit.
 This project is being actively improved step-by-step.
 Planned in v1.1+:
 
